@@ -1,0 +1,23 @@
+Package: boliga
+Title: What the Package Does (One Line, Title Case)
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Anders",
+           family = "",
+           role = c("aut", "cre"),
+           email = "anderstvistholm@live.dk",
+           comment = c(ORCID = "YOUR-ORCID-ID"))
+Description: Scrape some data from boliga.dk.
+License: What license it uses
+Encoding: UTF-8
+LazyData: true
+Imports: 
+    rvest,
+    purrr,
+    stringr,
+    lubridate,
+    tibble,
+    dplyr,
+    jsonlite,
+    readr
+RoxygenNote: 7.0.2
